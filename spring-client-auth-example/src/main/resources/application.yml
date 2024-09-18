@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+app:
+  clientId: testUser
+  clientSecret: 12345
+  user:
+    path: "/api/v1/user"
+  webclient:
+    path: "http://localhost:8080"
+  token:
+    path: "/api/v1/auth/signin"
+  data:
+    path: "/api/v1/app/user"
